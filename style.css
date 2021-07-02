@@ -1,0 +1,107 @@
+#globalYearPlanner{font-family:verdana, arial, helvetica, sans-serif;font-size:7pt;text-align:center;border:0 solid #FFD700;margin:2em}#globalYearPlanner ul{list-style:none;width:820px;border:0 solid silver;color:#3b8ac6;margin:0;padding:0}#globalYearPlanner ul li{float:left;border:0 solid silver;width:17px;margin:1px;padding:4px 0}#globalYearPlanner ul li.meses{display:block;background-color:#2376ad;width:35px;font-size:10px;color:#EEE;clear:both;border-width:0}#globalYearPlanner ul li.dias{display:block;background-color:#2376ad;text-align:center;color:#EEE;float:left}#globalYearPlanner ul li.vacios{background:#fff;border:0 solid silver}#globalYearPlanner ul li.normal{display:block;background-color:#d6dfef;cursor:default}#globalYearPlanner ul li.normal2{display:block;background-color:#d6dfef;cursor:pointer}#globalYearPlanner ul li.normal:hover{background-color:#9cc3ef}#globalYearPlanner ul li.finde{display:block;background-color:#d3deb4}#globalYearPlanner ul li.feriado{display:block;background-color:#b1ae95}#globalYearPlanner ul li.hoje{display:block;background-color:#98bf21}#tblTeamNames{color:#fff;background:#66c;width:30em;font-family:arial;font-size:13pt}span.teamAct{width:13em;color:#fff;background:#6898d0;text-align:center;font-size:14px;font-style:bold;height:24px;text-bottom:2px}#newEvents{width:auto;margin:1.5em 0 1.5em 3em;padding:0}legend{margin-left:1em;color:#000;font-weight:700}fieldset label{font-family:verdana, arial;font-size:9px;float:left;width:10em;margin-right:1em;text-align:right;color:#d34632}#title{width:22em}#contact{width:20em;font-style:regular;color:#000}.contactHelp{width:30em;margin-left:7em;text-align:left;color:gray}#calTable{align:centre data}label.pkd{color:fd7e00}#miniloginform{display:none;width:8em;margin-top:25px}.activo{width:12px;float:right;background-color:#FEFEFE;color:#232323;font-size:12px}.inactivo{width:12px;float:right;background-color:#FFF;color:#9a8;font-size:12px}#miniloginform input[type=submit]{background-color:#d6dfe;color:#834FFD;border:solid 2px #FFD700}#membersList{width:auto;margin-bottom:19px;font-size:10px;font-weight:400;font-family:Verdana, Lucida, Geneva, Helvetica, Arial, sans-serif;background-color:#d6dfef;color:#333;padding:2px 0 0}#membersList ul{list-style:none;border:none;margin:0;padding:4px 0 0}#membersList li{width:auto;margin:0}#membersList li a{display:block;border-right:5px solid #FFF;border-bottom:1px solid #dee3e7;background-color:#FFF;background:#FFF url(../images/arrow2.gif) no-repeat center left;color:#003053;text-decoration:none;width:auto;padding:2px 0 4px 1em}#membersList li a:hover{border-right:5px solid #b0c8ce;background-color:#e5edef;color:#00a6d6}#membersList li a.report{display:block;border-right:5px solid #FFF;border-bottom:1px solid #dee3e7;background:#FFF;background-color:#FFF;color:#00a6d6;text-decoration:none;width:auto;padding:0 0 1px 20px}
+
+#detailsList{background-color:#FFF;color:#00305b;float:left;margin-left:5em;width:680px;font-size:11px;font-weight:400;font-family:verdana, LindeDaxPowerPoint Bold;padding:5px 0 20px}
+#detailsList li{float:left;margin-left:0;border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:#dee3e;padding:5px 0}
+#detailsList li.title1,li.title2,li.title3,li.title4{color:#00a8e2;font-weight:700}
+#detailsList li.title0{text-align:center;width:30px}
+#detailsList li.title1{text-align:center;width:300px}
+#detailsList li.title2{text-align:center;width:120px}
+#detailsList li.title3{text-align:center;width:55px}
+#detailsList li.title4{text-align:center;width:55px}
+#detailsList li.col0{visibility:hidden;color:#dee3e;text-align:center;width:30px;border-bottom-width:0;padding:1px}
+#detailsList li.col0 a:link,#detailsList li.col0 a:visited{display:block;height:17px;width:30px;background:url(../images/closeButtonPack.png) no-repeat left top}
+#detailsList li.col0 a:hover,#detailsList li.col0 a:active{background-position:left -17px}
+#detailsList li.col1{text-align:left;width:300px}
+#detailsList li.col2{text-align:center;width:120px}
+#detailsList li.col3{text-align:center;width:55px}
+#detailsList li.col4{text-align:right;background-color:#ccdae1;margin-left:2px;width:55px}
+
+
+
+#newEventForm{width:40em;margin-left:3em;clear:both;visibility:hidden;border:1px solid #a2a2a2;background-color:#ccdae1;padding:10px}#logoutbutton{visibility:hidden;position:absolute;top:-10px;right:1em;z-index:99}
+.rollover a{display:block;text-indent:-9999px;cursor:pointer;outline:transparent solid 0;margin:auto}#logoutbutton a{height:29px;width:30px;background:url(../images/logout3.png) no-repeat left top}#logoutbutton a:hover{background-position:left -30px}
+#editbutton{visibility:hidden;position:absolute;top:-8px;right:1em;z-index:99}
+#editbutton a{height:29px;width:30px;background:url(../images/editicon.png) no-repeat left top}
+#editbutton a:hover{background-position:left -29px}
+
+#saveChart{visibility:inline;position:relative;left:0.3em;z-index:99}
+#saveChart a{height:25px;width:30px;background:url(../images/saveicon.png) no-repeat left top}
+#saveChart a:hover{background-position:left -25px}
+
+fieldset input,fieldset textarea{font-family:verdana, arial;font-size:10px;background:#FFF}#beginning,#ending{width:7em}#miniloginform input[type=text],#miniloginform input[type=password]{background-color:#d6dfe;border:solid 1px #FFD700}
+
+#nextEventFrame{
+visibility:hidden;
+position:relative;
+left: -6em;
+top: 0em;
+}
+#nextEventText{
+visibility:hidden;
+color:#008ac6;
+font-family: Times New Roman;
+position:relative;
+top:-8.5em;
+left: 0.6em;
+}
+
+#tt {
+ position:absolute;
+ display:block;
+ height:55px;
+ background:url(../images/ttip.png) top left no-repeat;
+ text-align:center;
+}
+#ttcont {
+ display:block;
+ padding-top:10px;
+ margin-left:-25px;
+ color:#d8063f;
+ font-family:verdana;
+ font-size:10px;
+ font-weight:bold;
+}
+.NORM {
+display:block;
+margin-top:-2px;
+color:green;
+font-size:12px;
+padding-top:0px;
+}
+.HIGH {
+display:block;
+font-size:11px;
+font-family:sans-serif;
+color:red;
+background:url(../images/HIGH.png) 40px no-repeat;
+margin-top:0px;
+padding-left:30px;
+padding-top:0px;
+height:30px;
+}
+.LOW {
+display:block;
+font-size:11px;
+font-family:sans-serif;
+color:#f77319;
+background:url(../images/LOW.png) 40px no-repeat;
+margin-top:0px;
+padding-left:25px;
+padding-top:0px;
+height:30px;
+}
+.STOP {
+display:block;
+font-size:10px;
+font-family:sans-serif;
+color:red;
+background:url(../images/STOP.png) 33px no-repeat;
+margin-top:0px;
+padding-left:25px;
+padding-top:2px;
+height:30px;
+} 
+ 
+
+
+
