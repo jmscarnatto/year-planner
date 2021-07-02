@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<root>
+	<feriado code="0101">New year</feriado>
+	<feriado code="0211">Carnival</feriado>
+	<feriado code="0212">Carnival</feriado>
+	<feriado code="0213">Ash Wednesday</feriado>
+	<feriado code="0329">Good friday</feriado>
+	<feriado code="0421">Tiradentes</feriado>
+	<feriado code="0501">Labour day</feriado>
+	<feriado code="0530">Corpus Christi</feriado>
+	<feriado code="0709">Constitutionalist Revolution</feriado>
+	<feriado code="0907">Independence day</feriado>
+	<feriado code="1012">Our Lady of Aparecida</feriado>
+	<feriado code="1102">All souls day</feriado>
+	<feriado code="1115">Proclamation day</feriado>
+	<feriado code="1225">Christmas</feriado>
+</root>
