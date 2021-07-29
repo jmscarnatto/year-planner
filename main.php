@@ -4,11 +4,9 @@ date_default_timezone_set('America/Sao_Paulo');
 
 $requested_year = $_GET["y"]; 
 
-if (isset($requested_year)) 
-{ 
+if (isset($requested_year)){ 
   $current_year = $requested_year; 
-} else 
-{ 
+} else { 
   $current_year = date("Y");
 }  
 
